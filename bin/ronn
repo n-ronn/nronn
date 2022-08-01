@@ -135,11 +135,11 @@ ARGV.options do |argv|
   argv.on('-v', '--version')  do
     require 'ronn'
     if Ronn.release?
-      printf "Ronn-NG v%s\n", Ronn::VERSION
+      printf "nRonn v%s\n", Ronn::VERSION
     else
-      printf "Ronn-NG v%s (%s)\n", Ronn::VERSION, Ronn::REV
+      printf "nRonn v%s (%s)\n", Ronn::VERSION, Ronn::REV
     end
-    printf "http://github.com/apjanke/ronn-ng/tree/%s\n", Ronn.revision
+    printf "https://github.com/n-ronn/nronn/tree/%s\n", Ronn.revision
     exit 0
   end
   argv.on_tail('--help') { usage; exit 0 }

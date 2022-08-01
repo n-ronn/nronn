@@ -1,4 +1,4 @@
-# Bash completion script for ronn(1) from Ronn-NG
+# Bash completion script for ronn(1) from nRonn
 
 _ronn()
 {

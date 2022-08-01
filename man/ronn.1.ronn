@@ -168,7 +168,7 @@ ignored:
     ls(1)        http://man.cx/ls(1)
 
     # other URLs for use with markdown reference links
-    src          http://github.com/
+    src          https://github.com/
 
 The <location> is an absolute or relative URL that usually points at an HTML
 version of manpage. It's possible to define references for things that aren't
@@ -237,7 +237,7 @@ allow targeting all generated elements:
 
 See the [builtin style sources][builtin] for examples.
 
-[builtin]: http://github.com/apjanke/ronn-ng/tree/master/lib/ronn/template
+[builtin]: https://github.com/n-ronn/nronn/tree/master/lib/ronn/template
           "Builtin Stylesheet .css files"
 
 ## EXAMPLES
@@ -309,8 +309,7 @@ under a `man/` directory:
 
 ## COPYRIGHT
 
-Ronn-NG is Copyright (C) 2009 Ryan Tomayko <http://tomayko.com/about> and
-(C) 2018 Andrew Janke <https://apjanke.net>
+See [LICENSE.txt](./LICENSE.txt)
 
 ## SEE ALSO
 

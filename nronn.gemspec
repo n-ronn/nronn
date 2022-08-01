@@ -1,21 +1,21 @@
 Gem::Specification.new do |s|
-  s.name = 'ronn-ng'
-  s.version = '0.10.1.pre1'
-  s.date = '2020-12-22'
+  s.name = 'nronn'
+  s.version = '0.10.1.pre2'
+  s.date = '2022-08-01'
   s.required_ruby_version = '>= 2.4'
 
   s.summary     = 'Builds man pages from Markdown'
-  s.description = 'Ronn-NG builds manuals in HTML and Unix man page format from Markdown.'
-  s.homepage    = 'https://github.com/apjanke/ronn-ng'
+  s.description = 'nronn builds manuals in HTML and Unix man page format from Markdown.'
+  s.homepage    = 'https://github.com/n-ronn/ronn'
   s.license     = 'MIT'
 
-  s.authors     = ['Andrew Janke']
-  s.email       = 'floss@apjanke.net'
+  s.authors     = ['Takuya Noguchi']
+  s.email       = ['']
 
   s.metadata = {
-    'bug_tracker_uri'   => 'https://github.com/apjanke/ronn-ng/issues',
-    'source_code_uri'   => 'https://github.com/apjanke/ronn-ng',
-    'changelog_uri'     => 'https://github.com/apjanke/ronn-ng/blob/master/CHANGES'
+    'bug_tracker_uri'   => 'https://github.com/n-ronn/nronn/issues',
+    'source_code_uri'   => 'https://github.com/n-ronn/nronn',
+    'changelog_uri'     => 'https://github.com/n-ronn/nronn/blob/master/CHANGES'
   }
 
   # = MANIFEST =
@@ -53,7 +53,7 @@ Gem::Specification.new do |s|
     man/ronn-format.7.ronn
     man/ronn.1
     man/ronn.1.ronn
-    ronn-ng.gemspec
+    nronn.gemspec
     test/angle_bracket_syntax.html
     test/angle_bracket_syntax.roff
     test/angle_bracket_syntax.ronn

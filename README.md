@@ -1,6 +1,6 @@
-# Ronn-NG
+# nRonn
 
-Ronn-NG is a new, currently-maintained fork of the defunct [original Ronn
+nRonn is a new, currently-maintained fork of the defunct [original Ronn
 project](https://github.com/rtomayko/ronn).
 
 Ronn builds manuals. It converts simple, human readable textfiles to roff for
@@ -15,30 +15,23 @@ The `*.ronn` files found in the [`man/`][1] directory show off a wide range of
 ronn capabilities:
 
 * [ronn(1)](http://rtomayko.github.com/ronn/ronn.1) command -
-  [source file](http://github.com/apjanke/ronn-ng/blob/master/man/ronn.1.ronn),
-  [roff output](http://github.com/apjanke/ronn-ng/blob/master/man/ronn.1)
+  [source file](https://github.com/n-ronn/nronn/blob/master/man/ronn.1.ronn),
+  [roff output](https://github.com/n-ronn/nronn/blob/master/man/ronn.1)
 
 * [ronn-format(7)](http://rtomayko.github.com/ronn/ronn-format.7) -
-  [source file](http://github.com/apjanke/ronn-ng/blob/master/man/ronn-format.7.ronn),
-  [roff output](http://github.com/apjanke/ronn-ng/blob/master/man/ronn-format.7)
+  [source file](https://github.com/n-ronn/nronn/blob/master/man/ronn-format.7.ronn),
+  [roff output](https://github.com/n-ronn/nronn/blob/master/man/ronn-format.7)
 
-[1]: http://github.com/apjanke/ronn-ng/tree/master/man
+[1]: https://github.com/n-ronn/nronn/tree/master/man
 
 As an alternative, you might want to check out [pandoc](http://johnmacfarlane.net/pandoc/) which can also convert markdown into roff manual pages.
 
 ## Installation
 
-Install with Homebrew on macOS:
-
-```bash
-brew tap apjanke/ronn-ng
-brew install ronn-ng
-```
-
 Install with `gem` anywhere that supports it:
 
 ```bash
-gem install ronn-ng
+gem install nronn
 ```
 
 See [INSTALLING.md](INSTALLING.md) for details on other systems and installation methods.
@@ -83,7 +76,7 @@ comprehensive documentation on `ronn` command line options.
 
 ## Background
 
-Some think Unix manual pages are a poor and outdated form of documentation. Ronn-NG
+Some think Unix manual pages are a poor and outdated form of documentation. nRonn
 disagrees:
 
 * Manpages follow a well defined structure that's immediately familiar. This
@@ -120,27 +113,19 @@ modern publishing tools. Ronn aims to solve that problem.
 
 ## Requirements
 
-Ruby 2.3 or newer, and gems as listed in `ronn-ng.gemspec`.
+Ruby 2.3 or newer, and gems as listed in `nronn.gemspec`.
 
 ## Project Management
 
-The project home page is at <https://github.com/apjanke/ronn-ng>. Bug reports,
+The project home page is at <https://github.com/n-ronn/nronn>. Bug reports,
 feature requests, and patch submissions are welcome.
-
-Ronn-NG was forked from the original Ronn project in 2018 after Ronn
-development had been defunct for a couple years, and Andrew wanted
-some bugs fixed.
 
 ## License and Copying
 
 MIT License.
 
-Ronn is Copyright (C) 2010 [Ryan Tomayko](http://tomayko.com/about).
-
-New Ronn-NG material is Copyright (C) 2018-2020 [Andrew Janke](https://apjanke.net).
-
-See the file LICENSE.txt for information of licensing and distribution.
+See [LICENSE.txt](LICENSE.txt) for detail.
 
 ## Build Status
 
-![Travis build status](https://travis-ci.com/apjanke/ronn-ng.svg?branch=master)
+TODO
