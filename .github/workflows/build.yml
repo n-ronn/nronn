@@ -39,13 +39,11 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-      continue-on-error: ${{ matrix.unsupported }} # Only for Ruby 2.4
     - name: Run tests
       run: bundle exec rake test
       continue-on-error: ${{ matrix.unsupported }}
     - name: Run man tests
       run: bundle exec rake man
-      continue-on-error: ${{ matrix.unsupported }} # Only for Ruby 2.4
 
   rubocop:
     runs-on: ubuntu-20.04
