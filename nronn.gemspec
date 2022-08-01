@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'nronn'
-  s.version = '0.10.1.pre2'
+  s.version = '0.10.1.pre3'
   s.date = '2022-08-01'
   s.required_ruby_version = '>= 2.4'
 
