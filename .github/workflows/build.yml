@@ -16,15 +16,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ruby-version: ['2.7', '3.0', '3.1', head]
+        ruby-version: ['2.4', '2.5', '2.6', '2.7', '3.0', '3.1', head]
         unsupported: [false]
-        include:
-          - ruby-version: '2.4'
-            unsupported: true
-          - ruby-version: '2.5'
-            unsupported: true
-          - ruby-version: '2.6'
-            unsupported: true
 
     steps:
     - uses: actions/checkout@v3
