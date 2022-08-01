@@ -1,6 +1,6 @@
 #compdef ronn
 
-# Zsh completion definitions for ronn, from Ronn-NG
+# Zsh completion definitions for ronn, from nRonn
 
 _arguments -C -s -S \
   '(--pipe)--pipe[write to standard output instead of generating files]' \

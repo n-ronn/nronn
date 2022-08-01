@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ronn-ng.iml" filepath="$PROJECT_DIR$/.idea/ronn-ng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nronn.iml" filepath="$PROJECT_DIR$/.idea/nronn.iml" />
     </modules>
   </component>
 </project>

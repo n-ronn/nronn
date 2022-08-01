@@ -18,8 +18,8 @@ class RonnTest < Test::Unit::TestCase
     output = `echo '# hello(1) -- hello world' | ronn --date=2009-11-23`
     lines = output.split("\n")
     assert_equal 5, lines.size
-    assert_equal %(.\\" generated with Ronn-NG/v#{Ronn.version}), lines.shift
-    assert_equal %(.\\" http://github.com/apjanke/ronn-ng/tree/#{Ronn.revision}), lines.shift
+    assert_equal %(.\\" generated with nRonn/v#{Ronn.version}), lines.shift
+    assert_equal %(.\\" https://github.com/n-ronn/nronn/tree/#{Ronn.revision}), lines.shift
     assert_equal %(.TH "HELLO" "1" "November 2009" ""), lines.shift
     assert_equal %(.SH "NAME"), lines.shift
     assert_equal %(\\fBhello\\fR \\- hello world), lines.shift
@@ -48,8 +48,8 @@ class RonnTest < Test::Unit::TestCase
     output = `echo '# hello(1) -- hello world' | ronn --html`
     output = canonicalize(output)
     assert_match(/<h2 id='NAME'>NAME<\/h2>/, output)
-    advertising = "<meta name='generator' content='Ronn-NG/v" + Ronn.version +
-                  ' (http://github.com/apjanke/ronn-ng/tree/' + Ronn.revision + ")'>"
+    advertising = "<meta name='generator' content='nRonn/v" + Ronn.version +
+                  ' (https://github.com/n-ronn/nronn/tree/' + Ronn.revision + ")'>"
     assert_match(/#{Regexp.escape(advertising)}/, output)
   end
 

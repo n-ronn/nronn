@@ -36,7 +36,7 @@ desc 'Build the manual'
 task man: :environment do
   require 'ronn'
   ENV['RONN_MANUAL'] = 'Ronn Manual'
-  ENV['RONN_ORGANIZATION'] = "Ronn-NG #{Ronn.revision}"
+  ENV['RONN_ORGANIZATION'] = "nRonn #{Ronn.revision}"
   sh 'ronn -w -s toc -r5 --markdown man/*.ronn'
 end
 
@@ -76,10 +76,10 @@ task :rev do
 end
 
 require 'rubygems'
-@spec = eval(File.read('ronn-ng.gemspec'))
+@spec = eval(File.read('nronn.gemspec'))
 
 def package(ext = '')
-  "pkg/ronn-ng-#{@spec.version}" + ext
+  "pkg/nronn-#{@spec.version}" + ext
 end
 
 desc 'Build packages'
@@ -93,8 +93,8 @@ end
 directory 'pkg/'
 CLOBBER.include('pkg')
 
-file package('.gem') => %w[pkg/ ronn-ng.gemspec] + @spec.files do |f|
-  sh 'gem build ronn-ng.gemspec'
+file package('.gem') => %w[pkg/ nronn.gemspec] + @spec.files do |f|
+  sh 'gem build nronn.gemspec'
   mv File.basename(f.name), f.name
 end
 
@@ -109,7 +109,7 @@ def source_version
   @source_version ||= `ruby -Ilib -rronn -e 'puts Ronn::VERSION'`.chomp
 end
 
-file 'ronn-ng.gemspec' => FileList['{lib,test,bin}/**', 'Rakefile'] do |f|
+file 'nronn.gemspec' => FileList['{lib,test,bin}/**', 'Rakefile'] do |f|
   # read spec file and split out manifest section
   spec = File.read(f.name)
   head, _manifest, tail = spec.split("  # = MANIFEST =\n")

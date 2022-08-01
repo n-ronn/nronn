@@ -1,9 +1,9 @@
-# Ronn-NG Developer's Guide
+# nRonn Developer's Guide
 
 ## Release checklist
 
 * Update the version in files
-  * ronn-ng.gemspec (update the release date, too)
+  * nronn.gemspec (update the release date, too)
   * `lib/ronn.rb`
 * Update `CHANGES` with the release date
 * Regenerate the man pages with `bundle exec rake man`
@@ -13,14 +13,14 @@
 * `git push --tags`
 * Create the Release on GitHub Releases
 * Build and deploy the gem to RubyGems
-  * `gem build ronn-ng.gemspec`
-  * `gem push ronn-ng-<version>.gem`
+  * `gem build nronn.gemspec`
+  * `gem push nronn-<version>.gem`
 * TODO: Announce the release somewhere
 
 After the release, start development on the next release:
 
 * Update the version in files
-  * ronn-ng.gemspec
+  * nronn.gemspec
   * `lib/ronn.rb`
 * Update `CHANGES` with a new section for the next release
 * Regenerate the man pages again: `rake man`
