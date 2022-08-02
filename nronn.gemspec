@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
 
   s.summary     = 'Builds man pages from Markdown'
   s.description = 'Advanced ronn: nRonn. nRonn builds manuals in HTML and Unix man page format from Markdown. Ruby 2.7/3.0/3.1/3.2-dev are fully supported. You can use Nokogiri instead of deprecated hpricot. If you do not want to use pandoc, you should use nronn.'
-  s.homepage    = 'https://github.com/n-ronn/ronn'
+  s.homepage    = 'https://github.com/n-ronn/nronn'
   s.license     = 'MIT'
 
   s.authors     = ['Takuya Noguchi']
