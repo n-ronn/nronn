@@ -22,9 +22,9 @@ module Ronn
 
   # A semantic version number based on the git revision. The third element
   # of the version is incremented by the commit offset, such that version
-  # 0.6.6-5-gdacd74b => 0.6.11
+  # v0.6.6-5-gdacd74b => 0.6.11
   def self.version
-    ver = revision[/^[0-9.-]+/].split(/[.-]/).map(&:to_i)
+    ver = revision.sub(/\Av/, '')[/^[0-9.-]+/].split(/[.-]/).map(&:to_i)
     ver[2] += ver.pop while ver.size > 3
     ver.join('.')
   end
