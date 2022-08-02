@@ -15,14 +15,14 @@ The `*.ronn` files found in the [`man/`][1] directory show off a wide range of
 ronn capabilities:
 
 * [ronn(1)](https://n-ronn.github.io/nronn/ronn.1.html) command -
-  [source file](https://github.com/n-ronn/nronn/blob/master/man/ronn.1.ronn),
-  [roff output](https://github.com/n-ronn/nronn/blob/master/man/ronn.1)
+  [source file](https://github.com/n-ronn/nronn/blob/main/man/ronn.1.ronn),
+  [roff output](https://github.com/n-ronn/nronn/blob/main/man/ronn.1)
 
 * [ronn-format(7)](https://n-ronn.github.io/nronn/ronn-format.7.html) -
-  [source file](https://github.com/n-ronn/nronn/blob/master/man/ronn-format.7.ronn),
-  [roff output](https://github.com/n-ronn/nronn/blob/master/man/ronn-format.7)
+  [source file](https://github.com/n-ronn/nronn/blob/main/man/ronn-format.7.ronn),
+  [roff output](https://github.com/n-ronn/nronn/blob/main/man/ronn-format.7)
 
-[1]: https://github.com/n-ronn/nronn/tree/master/man
+[1]: https://github.com/n-ronn/nronn/tree/main/man
 
 As an alternative, you might want to check out [pandoc](http://johnmacfarlane.net/pandoc/) which can also convert markdown into roff manual pages.
 

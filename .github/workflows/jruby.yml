@@ -3,7 +3,7 @@ name: JRuby
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
