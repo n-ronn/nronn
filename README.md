@@ -1,5 +1,7 @@
 # nRonn
 
+[![Ruby](https://github.com/n-ronn/nronn/actions/workflows/build.yml/badge.svg)](https://github.com/n-ronn/nronn/actions/workflows/build.yml?query=branch%3Amain)
+
 nRonn is a new, currently-maintained fork of the defunct [original Ronn
 project](https://github.com/rtomayko/ronn).
 
@@ -126,6 +128,8 @@ MIT License.
 
 See [LICENSE.txt](LICENSE.txt) for detail.
 
-## Build Status
+## JRuby support
 
-TODO
+JRuby is not supported yet:
+
+[![JRuby](https://github.com/n-ronn/nronn/actions/workflows/jruby.yml/badge.svg)](https://github.com/n-ronn/nronn/actions/workflows/jruby.yml)
