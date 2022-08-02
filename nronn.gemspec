@@ -21,8 +21,6 @@ Gem::Specification.new do |s|
   s.files = %w[
     AUTHORS
     CHANGES
-    Gemfile
-    Gemfile.lock
     INSTALLING.md
     LICENSE.txt
     README.md
