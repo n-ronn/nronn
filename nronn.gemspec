@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.metadata = {
     'bug_tracker_uri'   => 'https://github.com/n-ronn/nronn/issues',
     'source_code_uri'   => 'https://github.com/n-ronn/nronn',
-    'changelog_uri'     => 'https://github.com/n-ronn/nronn/blob/master/CHANGES'
+    'changelog_uri'     => 'https://github.com/n-ronn/nronn/releases'
   }
 
   # = MANIFEST =
