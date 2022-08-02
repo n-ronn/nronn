@@ -1,20 +1,14 @@
+nRonn CHANGES
+=============
+
+This file was deprecated.
+
+See https://github.com/n-ronn/nronn/releases for the latest release notes.
+
+The following is just for reference.
+
 Ronn-NG CHANGES
 ===============
-
-Version 0.10.1 (in progress)
-----------------------------
-
-* Switch to GitHub Flavored Markdown, fixing code block rendering (<https://github.com/apjanke/ronn-ng/pull/53>)
-* Revert `\[ci]` back to `\(bu)` (<https://github.com/apjanke/ronn-ng/pull/51>)
-* Minor fix to single-quote escaping (<https://github.com/apjanke/ronn-ng/issues/55>)
-* Elide HTML comments when producing roff output (<https://github.com/apjanke/ronn-ng/issues/65>)
-* Bump to mustache 1.x
-* Remove non-portable `more -i` option (<https://github.com/apjanke/ronn-ng/issues/71>)
-
-Version 0.10.0 (never)
----------------------------
-
-Doesn't exist due to a RubyGems publishing mistake
 
 Version 0.9.1 (2020 Apr 09)
 ---------------------------
