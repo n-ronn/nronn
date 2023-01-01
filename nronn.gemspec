@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'nronn'
-  s.version = '0.10.2'
+  s.version = '0.11.0'
   s.required_ruby_version = '>= 2.4'
 
   s.summary     = 'Builds man pages from Markdown'
